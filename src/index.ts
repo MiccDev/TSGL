@@ -2,7 +2,8 @@ import { Vector2 } from "./math/math";
 
 type _TSGL = {
     title: string,
-    size: Vector2
+    size: Vector2,
+    fps: number
 }
 
 class TSGL {
@@ -12,7 +13,7 @@ class TSGL {
     }
 
     private init(): void {
-        
+
     }
 
     private tick(): void {
